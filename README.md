@@ -22,8 +22,10 @@ FinishedTransfer Observer appends to finished_transfer.txt: transfer id, source_
 
 
 Input: two text files, one with accounts, second with transactions to be processed.
+
 Account line: {ID} {ACC_NUMBER} {BALANCE}
 Example: 1 1000010000 359.22
+
 Transaction line: {SOURCE_ACC_NUMBER} {TARGET_ACC_NUMBER} {AMOUNT}
 Example: 10001000 20002000 300.21
 
